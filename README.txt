@@ -6,8 +6,8 @@ User Profile
 Edit Profile
 Friends List
 
-We did experience issues caused by different group members using different IDE's.
-If this seems to be an issue when grading, the IDE we finalized the project in and recorded the demo from was IntelliJ.
+We did experience issues caused by different team members using different IDE's.
+ the IDE we finalized the project in and recorded the demo from was IntelliJ.
 
 For testing purposes, the current users are:
 AOppenh, pswd1
