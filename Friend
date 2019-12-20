@@ -1,0 +1,28 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package User;
+
+import java.util.ArrayList;
+
+/**
+ *
+ * @author burgo
+ */
+public class Friend extends User {
+    
+    private ArrayList<String> friendOf; //list of all the friends a user has
+    private UserProfile person; //user who's friend this is
+
+    public Friend(String username, String password, String id,  UserProfile person) {
+        super(username, password, id);
+        friendOf = new ArrayList<>();
+        this.person = person;
+    }
+    
+    public void addFriend(String friend) {
+        friendOf.add(friend);
+    }
+}
